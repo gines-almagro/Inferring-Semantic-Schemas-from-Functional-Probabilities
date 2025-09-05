@@ -26,25 +26,25 @@
 
 ### Results BigBasket
 
-Threshold = 1.0
+#### Threshold = 1.0 BigBasket Results
 
 * [BigBasket schema 1.0](./Data/BigBasketProducts/Results/processed_BigBasket_1.0_0_schema.csv)
 * [BigBasket probability 1.0](./Data/BigBasketProducts/Results/processed_BigBasket_1.0_0_fd_prob.csv)
 * [BigBasket quality 1.0](./Data/BigBasketProducts/Results/processed_BigBasket_1.0_0_fd_ratios.csv)
 
-Threshold = 0.99
+#### Threshold = 0.99 BigBasket Results
 
 * [BigBasket schema 0.99](./Data/BigBasketProducts/Results/processed_BigBasket_0.99_0_schema.csv)
 * [BigBasket probability 0.99](./Data/BigBasketProducts/Results/processed_BigBasket_0.99_0_fd_prob.csv)
 * [BigBasket quality 0.99](./Data/BigBasketProducts/Results/processed_BigBasket_0.99_0_fd_ratios.csv)
 
-Threshold = 0.98
+#### Threshold = 0.98 BigBasket Results
 
 * [BigBasket schema 0.98](./Data/BigBasketProducts/Results/processed_BigBasket_0.98_0_schema.csv)
 * [BigBasket probability 0.98](./Data/BigBasketProducts/Results/processed_BigBasket_0.98_0_fd_prob.csv)
 * [BigBasket quality 0.98](./Data/BigBasketProducts/Results/processed_BigBasket_0.98_0_fd_ratios.csv)
 
-Threshold = 0.93
+#### Threshold = 0.93 BigBasket Results
 
 * [BigBasket schema 0.93](./Data/BigBasketProducts/Results/processed_BigBasket_0.93_0_schema.csv)
 * [BigBasket probability 0.93](./Data/BigBasketProducts/Results/processed_BigBasket_0.93_0_fd_prob.csv)
@@ -52,7 +52,7 @@ Threshold = 0.93
 
 ### Metrics BigBasket
 
-Gold Standard
+#### Gold Standard BigBasket
 
 * Gold: 13 axioms (5 classes; 1 subClassOf; 3 relation properties; 9 datatype properties)
   
@@ -72,7 +72,7 @@ Gold Standard
 |SalesArticle(Absolute_url)|**belongsToSubCategory**|SubCategory|
 |SalesArticle(Absolute_url)|**hasSalesSpecification**|SalesSpecification|
 
-Threshold = 1.0
+#### Threshold = 1.0 BigBasket Metrics
 
 * [BigBasket metrics 1.0](./Data/BigBasketProducts/Metrics/threshold_1.md)
 
@@ -84,7 +84,7 @@ Threshold = 1.0
 * $\text{Datatype coverage} = 8 / (9 + 1) = 0.800$
 * $\text{Global coverage} = 11 / (6 + 5 + 10) = 0.524$
 
-Threshold = 0.99
+#### Threshold = 0.99 BigBasket Metrics
 
 * [BigBasket metrics 0.99](./Data/BigBasketProducts/Metrics/threshold_099.md)
 
@@ -96,7 +96,7 @@ Threshold = 0.99
 * $\text{Datatype coverage} = 8 / (9 + 1) = 0.800$
 * $\text{Global coverage} = 13 / (5 + 4 + 10) = 0.684$
 
-Threshold = 0.98
+#### Threshold = 0.98 BigBasket Metrics
 
 * [BigBasket metrics 0.98](./Data/BigBasketProducts/Metrics/threshold_098.md)
 
@@ -108,7 +108,7 @@ Threshold = 0.98
 * $\text{Datatype coverage} = 8 / (9 + 1) = 0.800$
 * $\text{Global coverage} = 13 / (5 + 4 + 10) = 0.684$
 
-Threshold = 0.93
+#### Threshold = 0.93 BigBasket Metrics
 
 * [BigBasket metrics 0.93](./Data/BigBasketProducts/Metrics/threshold_093.md)
   
@@ -146,25 +146,25 @@ Threshold = 0.93
 
 ### Results Ecommerce
 
-Threshold = 1.0
+#### Threshold = 1.0 Ecommerce Results
 
 * [Ecommerce schema 1.0](./Data/EcommerceData/Results/processed_data_1.0_0_schema.csv)
 * [Ecommerce probability 1.0](./Data/EcommerceData/Results/processed_data_1.0_0_fd_prob.csv)
 * [Ecommerce quality 1.0](./Data/EcommerceData/Results/processed_data_1.0_0_fd_ratios.csv)
 
-Threshold = 0.99
+#### Threshold = 0.99 Ecommerce Results
 
 * [Ecommerce schema 0.99](./Data/EcommerceData/Results/processed_data_0.99_0_schema.csv)
 * [Ecommerce probability 0.99](./Data/EcommerceData/Results/processed_data_0.99_0_fd_prob.csv)
 * [Ecommerce quality 0.99](./Data/EcommerceData/Results/processed_data_0.99_0_fd_ratios.csv)
 
-Threshold = 0.96
+#### Threshold = 0.96 Ecommerce Results
 
 * [Ecommerce schema 0.96](./Data/EcommerceData/Results/processed_data_0.96_0_schema.csv)
 * [Ecommerce probability 0.96](./Data/EcommerceData/Results/processed_data_0.96_0_fd_prob.csv)
 * [Ecommerce quality 0.96](./Data/EcommerceData/Results/processed_data_0.96_0_fd_ratios.csv)
 
-Threshold = 0.91
+#### Threshold = 0.91 Ecommerce Results
 
 * [Ecommerce schema 0.91](./Data/EcommerceData/Results/processed_data_0.91_0_schema.csv)
 * [Ecommerce probability 0.91](./Data/EcommerceData/Results/processed_data_0.91_0_fd_prob.csv)
@@ -172,7 +172,7 @@ Threshold = 0.91
 
 ### Metrics Ecommerce
 
-Gold standard
+#### Gold standard Ecommerce
 
 * Gold: 13 axioms (6 classes; 0 subClassOf; 5 relation properties; 8 datatype properties)
   
@@ -192,7 +192,50 @@ Gold standard
 |Invoice(InvoiceNo)|**hasCustomer**|Customer|
 |Invoice(InvoiceNo)|**hasSalesArticle**|SalesArticle|
 
-Threshold = 1.0
+#### Threshold = 1.0 Ecommerce Metrics
 
 [Ecommerce Metrics 1.0](./Data/EcommerceData/Metrics/threshold_1.md)
 
+* $Precision = 3.5 / 4 = 0.875$
+* $Recall = 3.5 / 13 = 0.269$
+* $F1 = (2 * 0.875 * 0.269) / (0.875 + 0.269) = 0.411$
+* $\text{Class coverage} = 2 / 6 = 0.333$
+* $\text{Relation coverage} = 1 / 5 = 0.200$
+* $\text{Datatype coverage} = 3 / 8 = 0.375$
+* $\text{Global coverage} = 6 / (6 + 5 + 8) = 0.316$
+
+#### Threshold = 0.99 Ecommerce Metrics
+
+[Ecommerce Metrics 0.99](./Data/EcommerceData/Metrics/threshold_099.md)
+
+* $Precision = 6 / 9 = 0.667$
+* $Recall = 6 / 13 = 0.462$
+* $F1 = (2 * 0.667 * 0.462) / (0.667 + 0.462) = 0.546$
+* $\text{Class coverage} = 3 / (6 +1) = 0.429$
+* $\text{Relation coverage} = 1 / (5 + 1) = 0.167$
+* $\text{Datatype coverage} = 5 / (8 + 1) = 0.556$
+* $\text{Global coverage} = 9 / (7 + 6 + 9) = 0.409$
+
+#### Threshold = 0.96 Ecommerce Metrics
+
+[Ecommerce Metrics 0.96](./Data/EcommerceData/Metrics/threshold_096.md)
+
+* $Precision = 6.5 / 7 = 0.929$
+* $Recall = 6.5 / 13 = 0.500$
+* $F1 = (2 * 0.929 * 0.500) / (0.929 + 0.500) = 0.650$
+* $\text{Class coverage} = 3 / 6 = 0.500$
+* $\text{Relation coverage} = 1 / 5 = 0.200$
+* $\text{Datatype coverage} = 6 / 8 = 0.750$
+* $\text{Global coverage} = 10 / (6 + 5 + 8) = 0.526$
+
+#### Threshold = 0.91 Ecommerce Metrics
+
+[Ecommerce Metrics 0.91](./Data/EcommerceData/Metrics/threshold_091.md)
+
+* $Precision = 6.5 / 12 = 0.542$
+* $Recall = 6.5 / 13 = 0.500$
+* $F1 = (2 * 0.542 * 0.500) / (0.542 + 0.500) = 0.520$
+* $\text{Class coverage} = 3 / (6 + 2) = 0.375$
+* $\text{Relation coverage} = 1 / 5 = 0.200$
+* $\text{Datatype coverage} = 8 / 8 = 1.0$
+* $\text{Global coverage} = 12 / (8 + 5 + 8) = 0.571$
