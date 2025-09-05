@@ -71,4 +71,4 @@
 * $Class coverage = 3 / 5 = 0.600$
 * $Relation coverage = 2 / 4 = 0.500$
 * $Datatype coverage = 8 / (9 + 1) = 0.800$
-* $Global coverage = 13 / (5 + 4 + 10) = 0.684$
+* $\text{Global coverage} = 13 / (5 + 4 + 10) = 0.684$
