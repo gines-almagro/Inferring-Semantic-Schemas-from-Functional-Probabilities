@@ -2,6 +2,8 @@
 
 ## BigBasket Products
 
+### Dataset BigBasket
+
 [processed_BigBasket.csv (2.57 MB)](./Data/BigBasketProducts/processed_BigBasket.csv)
 
 * Initial structure: 8208 rows x 9 columns
@@ -21,6 +23,8 @@
   | Category | string | 8208 | 11 |
   | SubCategory | string | 8208 | 334 |
   | Absolute\_Url | anyURI | 8208 | 8208 |
+
+### Results BigBasket
 
 Threshold = 1
 
@@ -48,6 +52,8 @@ Threshold = 0.93
 
 ## Ecommerce Data
 
+### Dataset Ecommerce
+
 [processed_data.csv (43.1 MB)](./Data/EcommerceData/processed_data.csv)
 
 * Initial structure: 541909 rows x 8 columns
@@ -67,6 +73,32 @@ Threshold = 0.93
 | UnitPrice | float | 530652 | 1628 |
 | CustomerID | integer | 398005 | 4370 |
 | Country | string | 530652 | 38 |
+
+### Results Ecommerce
+
+Threshold = 1.0
+
+* [Ecommerce schema 1.0](./Data/EcommerceData/Results/processed_data_1.0_0_schema.csv)
+* [Ecommerce probability 1.0](./Data/EcommerceData/Results/processed_data_1.0_0_fd_prob.csv)
+* [Ecommerce quality 1.0](./Data/EcommerceData/Results/processed_data_1.0_0_fd_ratios.csv)
+
+Threshold = 0.99
+
+* [Ecommerce schema 0.99](./Data/EcommerceData/Results/processed_data_0.99_0_schema.csv)
+* [Ecommerce probability 0.99](./Data/EcommerceData/Results/processed_data_0.99_0_fd_prob.csv)
+* [Ecommerce quality 0.99](./Data/EcommerceData/Results/processed_data_0.99_0_fd_ratios.csv)
+
+Threshold = 0.96
+
+* [Ecommerce schema 0.96](./Data/EcommerceData/Results/processed_data_0.96_0_schema.csv)
+* [Ecommerce probability 0.96](./Data/EcommerceData/Results/processed_data_0.96_0_fd_prob.csv)
+* [Ecommerce quality 0.96](./Data/EcommerceData/Results/processed_data_0.96_0_fd_ratios.csv)
+
+Threshold = 0.91
+
+* [Ecommerce schema 0.91](./Data/EcommerceData/Results/processed_data_0.91_0_schema.csv)
+* [Ecommerce probability 0.91](./Data/EcommerceData/Results/processed_data_0.91_0_fd_prob.csv)
+* [Ecommerce quality 0.91](./Data/EcommerceData/Results/processed_data_0.91_0_fd_ratios.csv)
 
 ## Gold standard
 
