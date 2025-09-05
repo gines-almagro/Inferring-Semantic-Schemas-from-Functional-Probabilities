@@ -1,0 +1,9 @@
+Determinant,Implicated
+1,['8']
+8,['7']
+9,"['6', '5', '2', '1', '3', '4']"
+
+
+ List equivalent attributes: [['9', '5']]
+
+ Index columns: {'1': 'ProductName', '2': 'Brand', '3': 'Price', '4': 'DiscountPrice', '5': 'Image_Url', '6': 'Quantity', '7': 'Category', '8': 'SubCategory', '9': 'Absolute_Url'}
