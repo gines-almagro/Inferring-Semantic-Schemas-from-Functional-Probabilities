@@ -1,0 +1,9 @@
+Determinant,Implicated
+1,"['7', '5']"
+3,['2']
+7,['8']
+
+
+ List equivalent attributes: [['3', '2'], ['1', '5']]
+
+ Index columns: {'1': 'InvoiceNo', '2': 'StockCode', '3': 'Description', '4': 'Quantity', '5': 'InvoiceDate', '6': 'UnitPrice', '7': 'CustomerID', '8': 'Country'}
