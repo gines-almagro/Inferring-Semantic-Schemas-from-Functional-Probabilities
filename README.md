@@ -84,6 +84,42 @@ Threshold = 1.0
 * $\text{Datatype coverage} = 8 / (9 + 1) = 0.800$
 * $\text{Global coverage} = 11 / (6 + 5 + 10) = 0.524$
 
+Threshold = 0.99
+
+* [BigBasket metrics 0.99](./Data/BigBasketProducts/Metrics/threshold_099.md)
+
+* $Precision = 6.5 / 11 = 0.591$
+* $Recall = 6.5 / 13 = 0.500$
+* $F1 = (2 * 0.591 * 0.500) / (0.591 + 0.500) = 0.542$
+* $\text{Class coverage} = 3 / 5 = 0.600$
+* $\text{Relation coverage} = 2 / 4 = 0.500$
+* $\text{Datatype coverage} = 8 / (9 + 1) = 0.800$
+* $\text{Global coverage} = 13 / (5 + 4 + 10) = 0.684$
+
+Threshold = 0.98
+
+* [BigBasket metrics 0.98](./Data/BigBasketProducts/Metrics/threshold_098.md)
+
+* $Precision = 7.5 / 11 = 0.682$
+* $Recall = 7.5 / 13 = 0.577$
+* $F1 = (2 * 0.682 * 0.577) / (0.682 + 0.577) = 0.625$
+* $\text{Class coverage} = 3 / 5 = 0.600$
+* $\text{Relation coverage} = 2 / 4 = 0.500$
+* $\text{Datatype coverage} = 8 / (9 + 1) = 0.800$
+* $\text{Global coverage} = 13 / (5 + 4 + 10) = 0.684$
+
+Threshold = 0.93
+
+* [BigBasket metrics 0.93](./Data/BigBasketProducts/Metrics/threshold_093.md)
+  
+* $Precision = 7 / 13 = 0.538$
+* $Recall = 7 / 13 = 0.538$
+* $F1 = (2 * 0.538 * 0.538) / (0.538 + 0.538) = 0.538$
+* $\text{Class coverage} = 3 / (5 + 1) = 0.500$
+* $\text{Relation coverage} = 2 / (4 + 1) = 0.400$
+* $\text{Datatype coverage} = 8 / (9 + 1) = 0.800$
+* $\text{Global coverage} = 13 / (6 + 5 + 10) = 0.619$
+
 ## Ecommerce Data
 
 ### Dataset Ecommerce
