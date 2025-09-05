@@ -1,10 +1,48 @@
 # Inferring Semantic Schemas from Functional Probabilities
 
-## BigBasket Products Metrics
+## BigBasket Products
 
+[processed_BigBasket.csv (2.57 MB)](../../../../files/sources/BigBasketProducts/processed_BigBasket.csv)
 
+* Initial structure: 8208 rows x 9 columns
+* Final structure: 8208 rows x 9 columns
+* Processing:
+  * Remove duplicate rows
+  * Remove rows with all null values
 
-## Ecommerce Data Metrics
+  |Columns Name | Datatypes | NoNull | Unique |
+|--|--|--|--|
+|ProductName | string | 8208 | 6769 |
+| Brand | string | 8208 | 842 |
+| Price | float | 8208 | 1043 |
+| DiscountPrice | float | 8208 | 2180 |
+| Image\_Url | anyURI | 8208 | 8202 |
+| Quantity | string | 8208 | 781 |
+| Category | string | 8208 | 11 |
+| SubCategory | string | 8208 | 334 |
+| Absolute\_Url | anyURI | 8208 | 8208 |
+
+## Ecommerce Data
+
+[processed_data.csv (43.1 MB)](../../../../files/sources/eCommerce/processed_data.csv)
+
+* Initial structure: 541909 rows x 8 columns
+* Final structure: 530652 rows x 8 columns
+* Processing:
+  * Remove duplicate rows
+  * Remove rows with all null values
+  * Remove rows starting with '"'
+
+|Columns Name | Datatypes | NoNull | Unique |
+|--|--|--|--|--|
+| InvoiceNo | string | 530652 | 25858 |
+| StockCode | string | 530652 | 3999 |
+| Description | string | 529198 | 4113 |
+| Quantity | integer | 530652 | 709 |
+| InvoiceDate | dataTime | 530652 | 23225 |
+| UnitPrice | float | 530652 | 1628 |
+| CustomerID | integer | 398005 | 4370 |
+| Country | string | 530652 | 38 |
 
 ## Gold standard
 
