@@ -34,7 +34,7 @@
   * Remove rows starting with '"'
 
 |Columns Name | Datatypes | NoNull | Unique |
-|--|--|--|--|--|
+|--|--|--|--|
 | InvoiceNo | string | 530652 | 25858 |
 | StockCode | string | 530652 | 3999 |
 | Description | string | 529198 | 4113 |
