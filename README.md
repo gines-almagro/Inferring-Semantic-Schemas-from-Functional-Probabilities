@@ -26,7 +26,7 @@
 
 ### Results BigBasket
 
-Threshold = 1
+Threshold = 1.0
 
 * [BigBasket schema 1.0](./Data/BigBasketProducts/Results/processed_BigBasket_1.0_0_schema.csv)
 * [BigBasket probability 1.0](./Data/BigBasketProducts/Results/processed_BigBasket_1.0_0_fd_prob.csv)
@@ -49,6 +49,40 @@ Threshold = 0.93
 * [BigBasket schema 0.93](./Data/BigBasketProducts/Results/processed_BigBasket_0.93_0_schema.csv)
 * [BigBasket probability 0.93](./Data/BigBasketProducts/Results/processed_BigBasket_0.93_0_fd_prob.csv)
 * [BigBasket quality 0.93](./Data/BigBasketProducts/Results/processed_BigBasket_0.93_0_fd_ratios.csv)
+
+### Metrics BigBasket
+
+Gold Standard
+
+* Gold: 13 axioms (5 classes; 1 subClassOf; 3 relation properties; 9 datatype properties)
+  
+|Class|Property|Object|
+|-----|---------|------|
+|Category|categoryName|Category|
+|SubCategory|subCategoryName|SubCategory|
+|SubCategory|**subClassOf**|Category|
+|Product(ProductName)|productName|ProductName|
+|Product(ProductName)|brandName|Brand|
+|SalesSpecification(Price_DiscountPrice)|priceArticle|Price|
+|SalesSpecification(Price_DiscountPrice)|DiscountPrice|DiscountPrice|
+|SalesArticle(Absolute_url)|hasUrl|Absolute_url|
+|SalesArticle(Absolute_url)|hasImageUrl|Image_url|
+|SalesArticle(Absolute_url)|hasProductQuantity|Quantity|
+|SalesArticle(Absolute_url)|**hasProduct**|Product|
+|SalesArticle(Absolute_url)|**belongsToSubCategory**|SubCategory|
+|SalesArticle(Absolute_url)|**hasSalesSpecification**|SalesSpecification|
+
+Threshold = 1.0
+
+* [BigBasket metrics 1.0](./Data/BigBasketProducts/Metrics/threshold_1.md)
+
+* $Precision = 5.5 / 12 = 0.458$
+* $Recall = 5.5 / 13 = 0.423$
+* $F1 = (2 * 0.458 * 0.423) / (0.458 + 0.423) = 0.440$
+* $\text{Class coverage} = 2 / (5 + 1) = 0.333$
+* $\text{Relation coverage} = 1 / (4 + 1) = 0.200$
+* $\text{Datatype coverage} = 8 / (9 + 1) = 0.800$
+* $\text{Global coverage} = 11 / (6 + 5 + 10) = 0.524$
 
 ## Ecommerce Data
 
@@ -100,7 +134,9 @@ Threshold = 0.91
 * [Ecommerce probability 0.91](./Data/EcommerceData/Results/processed_data_0.91_0_fd_prob.csv)
 * [Ecommerce quality 0.91](./Data/EcommerceData/Results/processed_data_0.91_0_fd_ratios.csv)
 
-## Gold standard
+### Metrics Ecommerce
+
+Gold standard
 
 * Gold: 13 axioms (6 classes; 0 subClassOf; 5 relation properties; 8 datatype properties)
   
@@ -120,4 +156,7 @@ Threshold = 0.91
 |Invoice(InvoiceNo)|**hasCustomer**|Customer|
 |Invoice(InvoiceNo)|**hasSalesArticle**|SalesArticle|
 
-[Threshold 1.0](../)
+Threshold = 1.0
+
+[Ecommerce Metrics 1.0](./Data/EcommerceData/Metrics/threshold_1.md)
+
