@@ -1,4 +1,4 @@
-# Metrics Gold - Thr_01
+# Metrics Gold - Thr_0.99
 
 ## Gold standard
 
@@ -44,7 +44,7 @@
 
 ## Alignment
 
-|Gold | Threshold 1.0|Score|
+|Gold | Threshold 0.99|Score|
 |-----|--------------|-----|
 |Category, categoryName, Category| | 0.0|
 |SubCategory, subCategoryName, SubCategory|SubCategory, subCategoryName, SubCategory| 1.0|
