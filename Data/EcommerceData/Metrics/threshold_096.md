@@ -1,4 +1,4 @@
-# Metrics Gold - 0.96
+# Metrics Gold - Thr_0.96
 
 ## Gold standard
 
