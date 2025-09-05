@@ -1,4 +1,4 @@
-# Metrics Gold - Thr_1
+# Metrics Gold - Thr_1.0
 
 ## Gold standard
 
@@ -24,7 +24,7 @@
 
 ## Threshold = 1.0
 
-* thr_1: 4 axioms (2 classes; 0 subClassOf; 1 relation properties; 3 datatype properties)
+* thr_1.0: 4 axioms (2 classes; 0 subClassOf; 1 relation properties; 3 datatype properties)
   
 |Class|Property|Object|
 |-----|---------|------|
@@ -58,7 +58,7 @@
 * $Precision = 3.5 / 4 = 0.875$
 * $Recall = 3.5 / 13 = 0.269$
 * $F1 = (2 * 0.875 * 0.269) / (0.875 + 0.269) = 0.411$
-* $Class\_cov = 2 / 6 = 0.333$
-* $Rel\_cov = 1 / 5 = 0.200$
-* $Dat\_cov = 3 / 8 = 0.375$
-* $Global\_cov = 6 / (6 + 5 + 8) = 0.316$
+* $\text{Class coverage} = 2 / 6 = 0.333$
+* $\text{Relation coverage} = 1 / 5 = 0.200$
+* $\text{Datatype coverage} = 3 / 8 = 0.375$
+* $\text{Global coverage} = 6 / (6 + 5 + 8) = 0.316$
