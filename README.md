@@ -1,1 +1,6 @@
-# Inferring-Semantic-Schemas-from-Functional-Probabilities
+# Inferring Semantic Schemas from Functional Probabilities
+
+## BigBasket Products
+
+
+## Ecommerce Data
