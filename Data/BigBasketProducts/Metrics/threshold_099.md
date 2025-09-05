@@ -69,7 +69,7 @@
 * $Precision = 6.5 / 11 = 0.591$
 * $Recall = 6.5 / 13 = 0.500$
 * $F1 = (2 * 0.591 * 0.500) / (0.591 + 0.500) = 0.542$
-* $Class coverage = 3 / 5 = 0.600$
-* $Relation coverage = 2 / 4 = 0.500$
-* $Datatype coverage = 8 / (9 + 1) = 0.800$
-* $Global coverage = 13 / (5 + 4 + 10) = 0.684$
+* $\text{Class coverage} = 3 / 5 = 0.600$
+* $\text{Relation coverage} = 2 / 4 = 0.500$
+* $\text{Datatype coverage} = 8 / (9 + 1) = 0.800$
+* $\text{Global coverage} = 13 / (5 + 4 + 10) = 0.684$
