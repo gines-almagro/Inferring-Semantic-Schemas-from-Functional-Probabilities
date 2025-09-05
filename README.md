@@ -54,7 +54,7 @@
 
 #### Gold Standard BigBasket
 
-* Gold: 13 axioms (5 classes; 1 subClassOf; 3 relation properties; 9 datatype properties)
+* 13 axioms (5 classes; 1 subClassOf; 3 relation properties; 9 datatype properties)
   
 |Class|Property|Object|
 |-----|---------|------|
@@ -74,6 +74,7 @@
 
 #### Threshold = 1.0 BigBasket Metrics
 
+* 12 axioms (3 classes; 0 subClassOf; 2 relation properties; 9 datatype properties)
 * [BigBasket metrics 1.0](./Data/BigBasketProducts/Metrics/threshold_1.md)
 
 * $Precision = 5.5 / 12 = 0.458$
@@ -86,6 +87,7 @@
 
 #### Threshold = 0.99 BigBasket Metrics
 
+* 11 axioms (3 classes; 0 subClassOf; 2 relation properties; 9 datatype properties)
 * [BigBasket metrics 0.99](./Data/BigBasketProducts/Metrics/threshold_099.md)
 
 * $Precision = 6.5 / 11 = 0.591$
@@ -98,6 +100,7 @@
 
 #### Threshold = 0.98 BigBasket Metrics
 
+* 11 axioms (3 classes; 0 subClassOf; 2 relation properties; 9 datatype properties)
 * [BigBasket metrics 0.98](./Data/BigBasketProducts/Metrics/threshold_098.md)
 
 * $Precision = 7.5 / 11 = 0.682$
@@ -110,6 +113,7 @@
 
 #### Threshold = 0.93 BigBasket Metrics
 
+* 13 axioms (4 classes; 0 subClassOf; 3 relation properties; 9 datatype properties)
 * [BigBasket metrics 0.93](./Data/BigBasketProducts/Metrics/threshold_093.md)
   
 * $Precision = 7 / 13 = 0.538$
@@ -174,7 +178,7 @@
 
 #### Gold standard Ecommerce
 
-* Gold: 13 axioms (6 classes; 0 subClassOf; 5 relation properties; 8 datatype properties)
+* 13 axioms (6 classes; 0 subClassOf; 5 relation properties; 8 datatype properties)
   
 |Class|Property|Object|
 |-----|---------|------|
@@ -194,8 +198,8 @@
 
 #### Threshold = 1.0 Ecommerce Metrics
 
+* 4 axioms (2 classes; 0 subClassOf; 1 relation properties; 3 datatype properties)
 * [Ecommerce Metrics 1.0](./Data/EcommerceData/Metrics/threshold_1.md)
-* thr_1.0: 4 axioms (2 classes; 0 subClassOf; 1 relation properties; 3 datatype properties)
 
 * $Precision = 3.5 / 4 = 0.875$
 * $Recall = 3.5 / 13 = 0.269$
@@ -207,7 +211,8 @@
 
 #### Threshold = 0.99 Ecommerce Metrics
 
-[Ecommerce Metrics 0.99](./Data/EcommerceData/Metrics/threshold_099.md)
+* 9 axioms (4 classes; 0 subClassOf; 2 relation properties; 6 datatype properties)
+* [Ecommerce Metrics 0.99](./Data/EcommerceData/Metrics/threshold_099.md)
 
 * $Precision = 6 / 9 = 0.667$
 * $Recall = 6 / 13 = 0.462$
@@ -219,7 +224,8 @@
 
 #### Threshold = 0.96 Ecommerce Metrics
 
-[Ecommerce Metrics 0.96](./Data/EcommerceData/Metrics/threshold_096.md)
+* 7 axioms (3 classes; 0 subClassOf; 1 relation properties; 6 datatype properties)
+* [Ecommerce Metrics 0.96](./Data/EcommerceData/Metrics/threshold_096.md)
 
 * $Precision = 6.5 / 7 = 0.929$
 * $Recall = 6.5 / 13 = 0.500$
@@ -231,7 +237,8 @@
 
 #### Threshold = 0.91 Ecommerce Metrics
 
-[Ecommerce Metrics 0.91](./Data/EcommerceData/Metrics/threshold_091.md)
+* 12 axioms (5 classes; 0 subClassOf; 1 relation properties; 8 datatype properties)
+* [Ecommerce Metrics 0.91](./Data/EcommerceData/Metrics/threshold_091.md)
 
 * $Precision = 6.5 / 12 = 0.542$
 * $Recall = 6.5 / 13 = 0.500$
