@@ -194,7 +194,8 @@
 
 #### Threshold = 1.0 Ecommerce Metrics
 
-[Ecommerce Metrics 1.0](./Data/EcommerceData/Metrics/threshold_1.md)
+* [Ecommerce Metrics 1.0](./Data/EcommerceData/Metrics/threshold_1.md)
+* thr_1.0: 4 axioms (2 classes; 0 subClassOf; 1 relation properties; 3 datatype properties)
 
 * $Precision = 3.5 / 4 = 0.875$
 * $Recall = 3.5 / 13 = 0.269$
