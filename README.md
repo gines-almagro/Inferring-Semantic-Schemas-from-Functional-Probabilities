@@ -11,16 +11,16 @@
   * Remove rows with all null values
 
   |Columns Name | Datatypes | NoNull | Unique |
-|--|--|--|--|
-|ProductName | string | 8208 | 6769 |
-| Brand | string | 8208 | 842 |
-| Price | float | 8208 | 1043 |
-| DiscountPrice | float | 8208 | 2180 |
-| Image\_Url | anyURI | 8208 | 8202 |
-| Quantity | string | 8208 | 781 |
-| Category | string | 8208 | 11 |
-| SubCategory | string | 8208 | 334 |
-| Absolute\_Url | anyURI | 8208 | 8208 |
+  |--|--|--|--|
+  |ProductName | string | 8208 | 6769 |
+  | Brand | string | 8208 | 842 |
+  | Price | float | 8208 | 1043 |
+  | DiscountPrice | float | 8208 | 2180 |
+  | Image\_Url | anyURI | 8208 | 8202 |
+  | Quantity | string | 8208 | 781 |
+  | Category | string | 8208 | 11 |
+  | SubCategory | string | 8208 | 334 |
+  | Absolute\_Url | anyURI | 8208 | 8208 |
 
 ## Ecommerce Data
 
