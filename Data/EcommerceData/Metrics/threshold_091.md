@@ -71,7 +71,7 @@
 * $Precision = 6.5 / 12 = 0.542$
 * $Recall = 6.5 / 13 = 0.500$
 * $F1 = (2 * 0.542 * 0.500) / (0.542 + 0.500) = 0.520$
-* $Class\_cov = 3 / (6 + 2) = 0.375$
-* $Rel\_cov = 1 / 5 = 0.200$
-* $Dat\_cov = 8 / 8 = 1.0$
-* $Global\_cov = 12 / (8 + 5 + 8) = 0.571$
+* $\text{Class coverage} = 3 / (6 + 2) = 0.375$
+* $\text{Relation coverage} = 1 / 5 = 0.200$
+* $\text{Datatype coverage} = 8 / 8 = 1.0$
+* $\text{Global coverage} = 12 / (8 + 5 + 8) = 0.571$
