@@ -1,4 +1,4 @@
-# Metrics Gold - Thr_99
+# Metrics Gold - Thr_0.99
 
 ## Gold standard
 
@@ -65,7 +65,7 @@
 * $Precision = 6 / 9 = 0.667$
 * $Recall = 6 / 13 = 0.462$
 * $F1 = (2 * 0.667 * 0.462) / (0.667 + 0.462) = 0.546$
-* $Class\_cov = 3 / (6 +1) = 0.429$
-* $Rel\_cov = 1 / (5 + 1) = 0.167$
-* $Dat\_cov = 5 / (8 + 1) = 0.556$
-* $Global\_cov = 9 / (7 + 6 + 9) = 0.409$
+* $\text{Class coverage} = 3 / (6 +1) = 0.429$
+* $\text{Relation coverage} = 1 / (5 + 1) = 0.167$
+* $\text{Datatype coverage} = 5 / (8 + 1) = 0.556$
+* $\text{Global coverage} = 9 / (7 + 6 + 9) = 0.409$
