@@ -24,6 +24,8 @@
   | SubCategory | string | 8208 | 334 |
   | Absolute\_Url | anyURI | 8208 | 8208 |
 
+![BigBasket Gold](./Data/BigBasketProducts/Figures/bigBasketProducts-Gold.png)
+
 ### Results BigBasket
 
 #### Threshold = 1.0 BigBasket Results
@@ -81,6 +83,8 @@
 | UnitPrice | float | 530652 | 1628 |
 | CustomerID | integer | 398005 | 4370 |
 | Country | string | 530652 | 38 |
+
+![Ecommerce Gold](./Data/EcommerceData/Figures/eCommerce-Gold.png)
 
 ### Results Ecommerce
 
