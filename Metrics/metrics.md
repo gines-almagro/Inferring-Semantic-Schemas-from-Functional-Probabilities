@@ -37,7 +37,7 @@ $$
 
 ---
 
-### Coverage with Penalty for Extra Predictions
+## Coverage with Penalty for Extra Predictions
 
 $$
 \text{Coverage}_{class} = \frac{|Classes_{covered}|}{|Classes_{Gold}| + |Classes_{Predicted}^{unique}|}
