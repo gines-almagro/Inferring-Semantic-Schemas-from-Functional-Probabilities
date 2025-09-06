@@ -58,80 +58,6 @@
 
 ![BigBasket 0.93](./Data/BigBasketProducts/Figures/schemas-BigBasket-093.png)
 
-### Metrics BigBasket
-
-#### Gold Standard BigBasket
-
-* 13 axioms (5 classes; 1 subClassOf; 3 relation properties; 9 datatype properties)
-  
-|Class|Property|Object|
-|-----|---------|------|
-|Category|categoryName|Category|
-|SubCategory|subCategoryName|SubCategory|
-|SubCategory|**subClassOf**|Category|
-|Product(ProductName)|productName|ProductName|
-|Product(ProductName)|brandName|Brand|
-|SalesSpecification(Price_DiscountPrice)|priceArticle|Price|
-|SalesSpecification(Price_DiscountPrice)|DiscountPrice|DiscountPrice|
-|SalesArticle(Absolute_url)|hasUrl|Absolute_url|
-|SalesArticle(Absolute_url)|hasImageUrl|Image_url|
-|SalesArticle(Absolute_url)|hasProductQuantity|Quantity|
-|SalesArticle(Absolute_url)|**hasProduct**|Product|
-|SalesArticle(Absolute_url)|**belongsToSubCategory**|SubCategory|
-|SalesArticle(Absolute_url)|**hasSalesSpecification**|SalesSpecification|
-
-#### Threshold = 1.0 BigBasket Metrics
-
-* 12 axioms (3 classes; 0 subClassOf; 2 relation properties; 9 datatype properties)
-* [BigBasket metrics 1.0](./Data/BigBasketProducts/Metrics/threshold_1.md)
-
-* $Precision = 5.5 / 12 = 0.458$
-* $Recall = 5.5 / 13 = 0.423$
-* $F1 = (2 * 0.458 * 0.423) / (0.458 + 0.423) = 0.440$
-* $\text{Class coverage} = 2 / (5 + 1) = 0.333$
-* $\text{Relation coverage} = 1 / (4 + 1) = 0.200$
-* $\text{Datatype coverage} = 8 / (9 + 1) = 0.800$
-* $\text{Global coverage} = 11 / (6 + 5 + 10) = 0.524$
-
-#### Threshold = 0.99 BigBasket Metrics
-
-* 11 axioms (3 classes; 0 subClassOf; 2 relation properties; 9 datatype properties)
-* [BigBasket metrics 0.99](./Data/BigBasketProducts/Metrics/threshold_099.md)
-
-* $Precision = 6.5 / 11 = 0.591$
-* $Recall = 6.5 / 13 = 0.500$
-* $F1 = (2 * 0.591 * 0.500) / (0.591 + 0.500) = 0.542$
-* $\text{Class coverage} = 3 / 5 = 0.600$
-* $\text{Relation coverage} = 2 / 4 = 0.500$
-* $\text{Datatype coverage} = 8 / (9 + 1) = 0.800$
-* $\text{Global coverage} = 13 / (5 + 4 + 10) = 0.684$
-
-#### Threshold = 0.98 BigBasket Metrics
-
-* 11 axioms (3 classes; 0 subClassOf; 2 relation properties; 9 datatype properties)
-* [BigBasket metrics 0.98](./Data/BigBasketProducts/Metrics/threshold_098.md)
-
-* $Precision = 7.5 / 11 = 0.682$
-* $Recall = 7.5 / 13 = 0.577$
-* $F1 = (2 * 0.682 * 0.577) / (0.682 + 0.577) = 0.625$
-* $\text{Class coverage} = 3 / 5 = 0.600$
-* $\text{Relation coverage} = 2 / 4 = 0.500$
-* $\text{Datatype coverage} = 8 / (9 + 1) = 0.800$
-* $\text{Global coverage} = 13 / (5 + 4 + 10) = 0.684$
-
-#### Threshold = 0.93 BigBasket Metrics
-
-* 13 axioms (4 classes; 0 subClassOf; 3 relation properties; 9 datatype properties)
-* [BigBasket metrics 0.93](./Data/BigBasketProducts/Metrics/threshold_093.md)
-  
-* $Precision = 7 / 13 = 0.538$
-* $Recall = 7 / 13 = 0.538$
-* $F1 = (2 * 0.538 * 0.538) / (0.538 + 0.538) = 0.538$
-* $\text{Class coverage} = 3 / (5 + 1) = 0.500$
-* $\text{Relation coverage} = 2 / (4 + 1) = 0.400$
-* $\text{Datatype coverage} = 8 / (9 + 1) = 0.800$
-* $\text{Global coverage} = 13 / (6 + 5 + 10) = 0.619$
-
 ## Ecommerce Data
 
 ### Dataset Ecommerce
@@ -189,80 +115,6 @@
 * [Ecommerce quality 0.91](./Data/EcommerceData/Results/processed_data_0.91_0_fd_ratios.csv)
 
 ![Ecommerce 0.91](./Data/EcommerceData/Figures/schemas-Ecommerce-091.png)
-
-### Metrics Ecommerce
-
-#### Gold standard Ecommerce
-
-* 13 axioms (6 classes; 0 subClassOf; 5 relation properties; 8 datatype properties)
-  
-|Class|Property|Object|
-|-----|---------|------|
-|Country|nameCountry|Country|
-|Customer(CustomerID)|customerID|customerID|
-|Customer(CustomerID)|**hasCountry**|Country|
-|Product(StockCode)|stockCode|StockCode|
-|Product(StockCode)|descriptionProduct|Description|
-|SalesSpecification(Quantity_UnitPrice)|price|UnitPrice|
-|SalesSpecification(Quantity_UnitPrice)|quantity|Quantity|
-|SalesArticle(InvoiceNo_StockCode)|**PriceSpecification**|SalesSpecification|
-|SalesArticle(InvoiceNo_StockCode)|**hasProduct**|Product|
-|Invoice(InvoiceNo)|invoiceNo|InvoiceNo|
-|Invoice(InvoiceNo)|invoiceDate|InvoiceDate|
-|Invoice(InvoiceNo)|**hasCustomer**|Customer|
-|Invoice(InvoiceNo)|**hasSalesArticle**|SalesArticle|
-
-#### Threshold = 1.0 Ecommerce Metrics
-
-* 4 axioms (2 classes; 0 subClassOf; 1 relation properties; 3 datatype properties)
-* [Ecommerce Metrics 1.0](./Data/EcommerceData/Metrics/threshold_1.md)
-
-* $Precision = 3.5 / 4 = 0.875$
-* $Recall = 3.5 / 13 = 0.269$
-* $F1 = (2 * 0.875 * 0.269) / (0.875 + 0.269) = 0.411$
-* $\text{Class coverage} = 2 / 6 = 0.333$
-* $\text{Relation coverage} = 1 / 5 = 0.200$
-* $\text{Datatype coverage} = 3 / 8 = 0.375$
-* $\text{Global coverage} = 6 / (6 + 5 + 8) = 0.316$
-
-#### Threshold = 0.99 Ecommerce Metrics
-
-* 9 axioms (4 classes; 0 subClassOf; 2 relation properties; 6 datatype properties)
-* [Ecommerce Metrics 0.99](./Data/EcommerceData/Metrics/threshold_099.md)
-
-* $Precision = 6 / 9 = 0.667$
-* $Recall = 6 / 13 = 0.462$
-* $F1 = (2 * 0.667 * 0.462) / (0.667 + 0.462) = 0.546$
-* $\text{Class coverage} = 3 / (6 +1) = 0.429$
-* $\text{Relation coverage} = 1 / (5 + 1) = 0.167$
-* $\text{Datatype coverage} = 5 / (8 + 1) = 0.556$
-* $\text{Global coverage} = 9 / (7 + 6 + 9) = 0.409$
-
-#### Threshold = 0.96 Ecommerce Metrics
-
-* 7 axioms (3 classes; 0 subClassOf; 1 relation properties; 6 datatype properties)
-* [Ecommerce Metrics 0.96](./Data/EcommerceData/Metrics/threshold_096.md)
-
-* $Precision = 6.5 / 7 = 0.929$
-* $Recall = 6.5 / 13 = 0.500$
-* $F1 = (2 * 0.929 * 0.500) / (0.929 + 0.500) = 0.650$
-* $\text{Class coverage} = 3 / 6 = 0.500$
-* $\text{Relation coverage} = 1 / 5 = 0.200$
-* $\text{Datatype coverage} = 6 / 8 = 0.750$
-* $\text{Global coverage} = 10 / (6 + 5 + 8) = 0.526$
-
-#### Threshold = 0.91 Ecommerce Metrics
-
-* 12 axioms (5 classes; 0 subClassOf; 1 relation properties; 8 datatype properties)
-* [Ecommerce Metrics 0.91](./Data/EcommerceData/Metrics/threshold_091.md)
-
-* $Precision = 6.5 / 12 = 0.542$
-* $Recall = 6.5 / 13 = 0.500$
-* $F1 = (2 * 0.542 * 0.500) / (0.542 + 0.500) = 0.520$
-* $\text{Class coverage} = 3 / (6 + 2) = 0.375$
-* $\text{Relation coverage} = 1 / 5 = 0.200$
-* $\text{Datatype coverage} = 8 / 8 = 1.0$
-* $\text{Global coverage} = 12 / (8 + 5 + 8) = 0.571$
 
 ## Evaluation Metrics
 
@@ -326,3 +178,150 @@ where:
 
 These metrics extend the standard binary evaluation by (i) rewarding partial matches between subject–object pairs with different predicates, and (ii) penalizing systems that introduce non-existing classes or properties. They can be reported in addition to standard precision, recall and F1 to provide a more fine-grained evaluation.
 
+### Metrics BigBasket
+
+#### Gold Standard BigBasket
+
+* 13 axioms (5 classes; 1 subClassOf; 3 relation properties; 9 datatype properties)
+  
+|Class|Property|Object|
+|-----|---------|------|
+|Category|categoryName|Category|
+|SubCategory|subCategoryName|SubCategory|
+|SubCategory|**subClassOf**|Category|
+|Product(ProductName)|productName|ProductName|
+|Product(ProductName)|brandName|Brand|
+|SalesSpecification(Price_DiscountPrice)|priceArticle|Price|
+|SalesSpecification(Price_DiscountPrice)|DiscountPrice|DiscountPrice|
+|SalesArticle(Absolute_url)|hasUrl|Absolute_url|
+|SalesArticle(Absolute_url)|hasImageUrl|Image_url|
+|SalesArticle(Absolute_url)|hasProductQuantity|Quantity|
+|SalesArticle(Absolute_url)|**hasProduct**|Product|
+|SalesArticle(Absolute_url)|**belongsToSubCategory**|SubCategory|
+|SalesArticle(Absolute_url)|**hasSalesSpecification**|SalesSpecification|
+
+#### Threshold = 1.0 BigBasket Metrics
+
+* 12 axioms (3 classes; 0 subClassOf; 2 relation properties; 9 datatype properties)
+* [BigBasket metrics 1.0](./Metrics/BigBasket/threshold_1.md)
+
+* $Precision = 5.5 / 12 = 0.458$
+* $Recall = 5.5 / 13 = 0.423$
+* $F1 = (2 * 0.458 * 0.423) / (0.458 + 0.423) = 0.440$
+* $\text{Class coverage} = 2 / (5 + 1) = 0.333$
+* $\text{Relation coverage} = 1 / (4 + 1) = 0.200$
+* $\text{Datatype coverage} = 8 / (9 + 1) = 0.800$
+* $\text{Global coverage} = 11 / (6 + 5 + 10) = 0.524$
+
+#### Threshold = 0.99 BigBasket Metrics
+
+* 11 axioms (3 classes; 0 subClassOf; 2 relation properties; 9 datatype properties)
+* [BigBasket metrics 0.99](./Metrics/BigBasket/threshold_099.md)
+
+* $Precision = 6.5 / 11 = 0.591$
+* $Recall = 6.5 / 13 = 0.500$
+* $F1 = (2 * 0.591 * 0.500) / (0.591 + 0.500) = 0.542$
+* $\text{Class coverage} = 3 / 5 = 0.600$
+* $\text{Relation coverage} = 2 / 4 = 0.500$
+* $\text{Datatype coverage} = 8 / (9 + 1) = 0.800$
+* $\text{Global coverage} = 13 / (5 + 4 + 10) = 0.684$
+
+#### Threshold = 0.98 BigBasket Metrics
+
+* 11 axioms (3 classes; 0 subClassOf; 2 relation properties; 9 datatype properties)
+* [BigBasket metrics 0.98](./Metrics/BigBasket/threshold_098.md)
+
+* $Precision = 7.5 / 11 = 0.682$
+* $Recall = 7.5 / 13 = 0.577$
+* $F1 = (2 * 0.682 * 0.577) / (0.682 + 0.577) = 0.625$
+* $\text{Class coverage} = 3 / 5 = 0.600$
+* $\text{Relation coverage} = 2 / 4 = 0.500$
+* $\text{Datatype coverage} = 8 / (9 + 1) = 0.800$
+* $\text{Global coverage} = 13 / (5 + 4 + 10) = 0.684$
+
+#### Threshold = 0.93 BigBasket Metrics
+
+* 13 axioms (4 classes; 0 subClassOf; 3 relation properties; 9 datatype properties)
+* [BigBasket metrics 0.93](./Metrics/BigBasket/threshold_093.md)
+  
+* $Precision = 7 / 13 = 0.538$
+* $Recall = 7 / 13 = 0.538$
+* $F1 = (2 * 0.538 * 0.538) / (0.538 + 0.538) = 0.538$
+* $\text{Class coverage} = 3 / (5 + 1) = 0.500$
+* $\text{Relation coverage} = 2 / (4 + 1) = 0.400$
+* $\text{Datatype coverage} = 8 / (9 + 1) = 0.800$
+* $\text{Global coverage} = 13 / (6 + 5 + 10) = 0.619$
+
+### Metrics Ecommerce
+
+#### Gold standard Ecommerce
+
+* 13 axioms (6 classes; 0 subClassOf; 5 relation properties; 8 datatype properties)
+  
+|Class|Property|Object|
+|-----|---------|------|
+|Country|nameCountry|Country|
+|Customer(CustomerID)|customerID|customerID|
+|Customer(CustomerID)|**hasCountry**|Country|
+|Product(StockCode)|stockCode|StockCode|
+|Product(StockCode)|descriptionProduct|Description|
+|SalesSpecification(Quantity_UnitPrice)|price|UnitPrice|
+|SalesSpecification(Quantity_UnitPrice)|quantity|Quantity|
+|SalesArticle(InvoiceNo_StockCode)|**PriceSpecification**|SalesSpecification|
+|SalesArticle(InvoiceNo_StockCode)|**hasProduct**|Product|
+|Invoice(InvoiceNo)|invoiceNo|InvoiceNo|
+|Invoice(InvoiceNo)|invoiceDate|InvoiceDate|
+|Invoice(InvoiceNo)|**hasCustomer**|Customer|
+|Invoice(InvoiceNo)|**hasSalesArticle**|SalesArticle|
+
+#### Threshold = 1.0 Ecommerce Metrics
+
+* 4 axioms (2 classes; 0 subClassOf; 1 relation properties; 3 datatype properties)
+* [Ecommerce Metrics 1.0](./Metrics/Ecommerce/threshold_1.md)
+
+* $Precision = 3.5 / 4 = 0.875$
+* $Recall = 3.5 / 13 = 0.269$
+* $F1 = (2 * 0.875 * 0.269) / (0.875 + 0.269) = 0.411$
+* $\text{Class coverage} = 2 / 6 = 0.333$
+* $\text{Relation coverage} = 1 / 5 = 0.200$
+* $\text{Datatype coverage} = 3 / 8 = 0.375$
+* $\text{Global coverage} = 6 / (6 + 5 + 8) = 0.316$
+
+#### Threshold = 0.99 Ecommerce Metrics
+
+* 9 axioms (4 classes; 0 subClassOf; 2 relation properties; 6 datatype properties)
+* [Ecommerce Metrics 0.99](./Metrics/Ecommerce/threshold_099.md)
+
+* $Precision = 6 / 9 = 0.667$
+* $Recall = 6 / 13 = 0.462$
+* $F1 = (2 * 0.667 * 0.462) / (0.667 + 0.462) = 0.546$
+* $\text{Class coverage} = 3 / (6 +1) = 0.429$
+* $\text{Relation coverage} = 1 / (5 + 1) = 0.167$
+* $\text{Datatype coverage} = 5 / (8 + 1) = 0.556$
+* $\text{Global coverage} = 9 / (7 + 6 + 9) = 0.409$
+
+#### Threshold = 0.96 Ecommerce Metrics
+
+* 7 axioms (3 classes; 0 subClassOf; 1 relation properties; 6 datatype properties)
+* [Ecommerce Metrics 0.96](./Metrics/Ecommerce/threshold_096.md)
+
+* $Precision = 6.5 / 7 = 0.929$
+* $Recall = 6.5 / 13 = 0.500$
+* $F1 = (2 * 0.929 * 0.500) / (0.929 + 0.500) = 0.650$
+* $\text{Class coverage} = 3 / 6 = 0.500$
+* $\text{Relation coverage} = 1 / 5 = 0.200$
+* $\text{Datatype coverage} = 6 / 8 = 0.750$
+* $\text{Global coverage} = 10 / (6 + 5 + 8) = 0.526$
+
+#### Threshold = 0.91 Ecommerce Metrics
+
+* 12 axioms (5 classes; 0 subClassOf; 1 relation properties; 8 datatype properties)
+* [Ecommerce Metrics 0.91](./Metrics/Ecommerce/threshold_091.md)
+
+* $Precision = 6.5 / 12 = 0.542$
+* $Recall = 6.5 / 13 = 0.500$
+* $F1 = (2 * 0.542 * 0.500) / (0.542 + 0.500) = 0.520$
+* $\text{Class coverage} = 3 / (6 + 2) = 0.375$
+* $\text{Relation coverage} = 1 / 5 = 0.200$
+* $\text{Datatype coverage} = 8 / 8 = 1.0$
+* $\text{Global coverage} = 12 / (8 + 5 + 8) = 0.571$
