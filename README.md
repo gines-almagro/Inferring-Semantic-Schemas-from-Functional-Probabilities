@@ -32,6 +32,8 @@
 * [BigBasket probability 1.0](./Data/BigBasketProducts/Results/processed_BigBasket_1.0_0_fd_prob.csv)
 * [BigBasket quality 1.0](./Data/BigBasketProducts/Results/processed_BigBasket_1.0_0_fd_ratios.csv)
 
+![BigBasket 1.0](./Data/BigBasketProducts/Figures/schemas-BigBasket-1.png)
+
 #### Threshold = 0.99 BigBasket Results
 
 * [BigBasket schema 0.99](./Data/BigBasketProducts/Results/processed_BigBasket_0.99_0_schema.csv)
