@@ -8,7 +8,7 @@ Given:
 
 ## Weighted Precision, Recall and F1-score
 
-We define a similarity function $\text{sim}(p,g) \in \{0,0.5,1\}$ between a predicted axiom $p \in P$ and a gold axiom $g \in G$:
+We define a similarity function $\text{sim}(p,g) \in \\{0,0.5,1\\}$ between a predicted axiom $p \in P$ and a gold axiom $g \in G$:
 
 $$
 \text{sim}(p,g) =
