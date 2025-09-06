@@ -164,11 +164,15 @@
 * [Ecommerce probability 1.0](./Data/EcommerceData/Results/processed_data_1.0_0_fd_prob.csv)
 * [Ecommerce quality 1.0](./Data/EcommerceData/Results/processed_data_1.0_0_fd_ratios.csv)
 
+![Ecommerce 1.0](./Data/EcommerceData/Figures/schemas-Ecommerce-1.png)
+
 #### Threshold = 0.99 Ecommerce Results
 
 * [Ecommerce schema 0.99](./Data/EcommerceData/Results/processed_data_0.99_0_schema.csv)
 * [Ecommerce probability 0.99](./Data/EcommerceData/Results/processed_data_0.99_0_fd_prob.csv)
 * [Ecommerce quality 0.99](./Data/EcommerceData/Results/processed_data_0.99_0_fd_ratios.csv)
+
+![Ecommerce 0.99](./Data/EcommerceData/Figures/schemas-Ecommerce-099.png)
 
 #### Threshold = 0.96 Ecommerce Results
 
@@ -176,11 +180,15 @@
 * [Ecommerce probability 0.96](./Data/EcommerceData/Results/processed_data_0.96_0_fd_prob.csv)
 * [Ecommerce quality 0.96](./Data/EcommerceData/Results/processed_data_0.96_0_fd_ratios.csv)
 
+![Ecommerce 0.96](./Data/EcommerceData/Figures/schemas-Ecommerce-096.png)
+
 #### Threshold = 0.91 Ecommerce Results
 
 * [Ecommerce schema 0.91](./Data/EcommerceData/Results/processed_data_0.91_0_schema.csv)
 * [Ecommerce probability 0.91](./Data/EcommerceData/Results/processed_data_0.91_0_fd_prob.csv)
 * [Ecommerce quality 0.91](./Data/EcommerceData/Results/processed_data_0.91_0_fd_ratios.csv)
+
+![Ecommerce 0.91](./Data/EcommerceData/Figures/schemas-Ecommerce-091.png)
 
 ### Metrics Ecommerce
 
