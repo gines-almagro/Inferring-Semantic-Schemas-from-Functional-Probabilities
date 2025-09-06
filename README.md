@@ -40,17 +40,23 @@
 * [BigBasket probability 0.99](./Data/BigBasketProducts/Results/processed_BigBasket_0.99_0_fd_prob.csv)
 * [BigBasket quality 0.99](./Data/BigBasketProducts/Results/processed_BigBasket_0.99_0_fd_ratios.csv)
 
+![BigBasket 0.99](./Data/BigBasketProducts/Figures/schemas-BigBasket-099.png)
+
 #### Threshold = 0.98 BigBasket Results
 
 * [BigBasket schema 0.98](./Data/BigBasketProducts/Results/processed_BigBasket_0.98_0_schema.csv)
 * [BigBasket probability 0.98](./Data/BigBasketProducts/Results/processed_BigBasket_0.98_0_fd_prob.csv)
 * [BigBasket quality 0.98](./Data/BigBasketProducts/Results/processed_BigBasket_0.98_0_fd_ratios.csv)
 
+![BigBasket 0.98](./Data/BigBasketProducts/Figures/schemas-BigBasket-098.png)
+
 #### Threshold = 0.93 BigBasket Results
 
 * [BigBasket schema 0.93](./Data/BigBasketProducts/Results/processed_BigBasket_0.93_0_schema.csv)
 * [BigBasket probability 0.93](./Data/BigBasketProducts/Results/processed_BigBasket_0.93_0_fd_prob.csv)
 * [BigBasket quality 0.93](./Data/BigBasketProducts/Results/processed_BigBasket_0.93_0_fd_ratios.csv)
+
+![BigBasket 0.93](./Data/BigBasketProducts/Figures/schemas-BigBasket-093.png)
 
 ### Metrics BigBasket
 
