@@ -4,11 +4,11 @@
 
 * Gold: 13 axioms (5 classes; 1 subClassOf; 3 relation properties; 9 datatype properties)
   
-|Class|Property|Object|
+|Class(identifier)$^{(*)}$|Property|Object|
 |-----|---------|------|
-|Category|categoryName|Category|
-|SubCategory|subCategoryName|SubCategory|
-|SubCategory|**subClassOf**|Category|
+|Category(Category)|categoryName|Category|
+|SubCategory(SubCategory)|subCategoryName|SubCategory|
+|SubCategory(SubCategory)|**subClassOf**|Category|
 |Product(ProductName)|productName|ProductName|
 |Product(ProductName)|brandName|Brand|
 |SalesSpecification(Price_DiscountPrice)|priceArticle|Price|
@@ -20,16 +20,18 @@
 |SalesArticle(Absolute_url)|**belongsToSubCategory**|SubCategory|
 |SalesArticle(Absolute_url)|**hasSalesSpecification**|SalesSpecification|
 
+_$^{(*)}$ In brackets, the column(s) of the dataset that acts as the class identifier, which determines the granularity of the same_
+
 -----------------------------------------------------
 
 ## Threshold = 1.0
 
 * thr_1: 12 axioms (3 classes; 0 subClassOf; 2 relation properties; 9 datatype properties)
   
-|Class|Property|Object|
+|Class(identifier)|Property|Object|
 |-----|---------|------|
-|SubCategory|subCategoryName|SubCategory|
-|SubCategory|belongsToCategory|Category|
+|SubCategory(SubCategory)|subCategoryName|SubCategory|
+|SubCategory(SubCategory)|belongsToCategory|Category|
 |ImageArticle(Image_url)|hasImageUrl|Image_url|
 |ImageArticle(Image_url)|belongsToCategory|Category|
 |SalesArticle(Absolute_url)|hasUrl|Absolute_url|

@@ -4,9 +4,9 @@
 
 * Gold: 13 axioms (6 classes; 0 subClassOf; 5 relation properties; 8 datatype properties)
   
-|Class|Property|Object|
+|Class(identifier)$^{(*)}$|Property|Object|
 |-----|---------|------|
-|Country|nameCountry|Country|
+|Country(Country)|nameCountry|Country|
 |Customer(CustomerID)|customerID|customerID|
 |Customer(CustomerID)|**hasCountry**|Country|
 |Product(StockCode)|stockCode|StockCode|
@@ -20,23 +20,25 @@
 |Invoice(InvoiceNo)|**hasCustomer**|Customer|
 |Invoice(InvoiceNo)|**hasSalesArticle**|SalesArticle|
 
+_$^{(*)}$ In brackets, the column(s) of the dataset that acts as the class identifier, which determines the granularity of the same_
+
 -----------------------------------------------------
 
 ## Threshold = 0.91
 
 * thr_0.91: 12 axioms (5 classes; 0 subClassOf; 1 relation properties; 8 datatype properties)
   
-|Class|Property|Object|
+|Class(identifier)|Property|Object|
 |-----|---------|------|
 |Customer(CustomerID)|customerID|customerID|
 |Customer(CustomerID)|nameCountry|Country|
 |Product(StockCode)|stockCode|StockCode|
 |Product(StockCode)|descriptionProduct|Description|
 |Product(StockCode)|nameCountry|Country|
-|UnitPrice|price|UnitPrice|
-|UnitPrice|nameCountry|Country|
-|Quantity|quantity|Quantity|
-|Quantity|nameCountry|Country|
+|UnitPrice(UnitPrice)|price|UnitPrice|
+|UnitPrice(UnitPrice)|nameCountry|Country|
+|Quantity(Quantity)|quantity|Quantity|
+|Quantity(Quantity)|nameCountry|Country|
 |Invoice(InvoiceNo)|invoiceNo|InvoiceNo|
 |Invoice(InvoiceNo)|invoiceDate|InvoiceDate|
 |Invoice(InvoiceNo)|**hasCustomer**|Customer|

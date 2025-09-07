@@ -188,11 +188,11 @@ These metrics extend the standard binary evaluation by (i) rewarding partial mat
 
 * 13 axioms (5 classes; 1 subClassOf; 3 relation properties; 9 datatype properties)
   
-|Class|Property|Object|
+|Class(identifier)$^{(*)}$|Property|Object|
 |-----|---------|------|
-|Category|categoryName|Category|
-|SubCategory|subCategoryName|SubCategory|
-|SubCategory|**subClassOf**|Category|
+|Category(Category)|categoryName|Category|
+|SubCategory(SubCategory)|subCategoryName|SubCategory|
+|SubCategory(SubCategory)|**subClassOf**|Category|
 |Product(ProductName)|productName|ProductName|
 |Product(ProductName)|brandName|Brand|
 |SalesSpecification(Price_DiscountPrice)|priceArticle|Price|
@@ -203,6 +203,8 @@ These metrics extend the standard binary evaluation by (i) rewarding partial mat
 |SalesArticle(Absolute_url)|**hasProduct**|Product|
 |SalesArticle(Absolute_url)|**belongsToSubCategory**|SubCategory|
 |SalesArticle(Absolute_url)|**hasSalesSpecification**|SalesSpecification|
+
+_$^{(*)}$ In brackets, the column(s) of the dataset that acts as the class identifier, which determines the granularity of the same_
 
 #### Threshold = 1.0 BigBasket Metrics
 
@@ -262,9 +264,9 @@ These metrics extend the standard binary evaluation by (i) rewarding partial mat
 
 * 13 axioms (6 classes; 0 subClassOf; 5 relation properties; 8 datatype properties)
   
-|Class|Property|Object|
+|Class(identifier)$^{(*)}$|Property|Object|
 |-----|---------|------|
-|Country|nameCountry|Country|
+|Country(Country)|nameCountry|Country|
 |Customer(CustomerID)|customerID|customerID|
 |Customer(CustomerID)|**hasCountry**|Country|
 |Product(StockCode)|stockCode|StockCode|
@@ -277,6 +279,8 @@ These metrics extend the standard binary evaluation by (i) rewarding partial mat
 |Invoice(InvoiceNo)|invoiceDate|InvoiceDate|
 |Invoice(InvoiceNo)|**hasCustomer**|Customer|
 |Invoice(InvoiceNo)|**hasSalesArticle**|SalesArticle|
+
+_$^{(*)}$ In brackets, the column(s) of the dataset that acts as the class identifier, which determines the granularity of the same_
 
 #### Threshold = 1.0 Ecommerce Metrics
 

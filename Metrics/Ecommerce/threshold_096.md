@@ -4,9 +4,9 @@
 
 * Gold: 13 axioms (6 classes; 0 subClassOf; 5 relation properties; 8 datatype properties)
   
-|Class|Property|Object|
+|Class(identifier)$^{(*)}$|Property|Object|
 |-----|---------|------|
-|Country|nameCountry|Country|
+|Country(Country)|nameCountry|Country|
 |Customer(CustomerID)|customerID|customerID|
 |Customer(CustomerID)|**hasCountry**|Country|
 |Product(StockCode)|stockCode|StockCode|
@@ -26,7 +26,7 @@
 
 * thr_0.96: 7 axioms (3 classes; 0 subClassOf; 1 relation properties; 6 datatype properties)
   
-|Class|Property|Object|
+|Class(identifier)|Property|Object|
 |-----|---------|------|
 |Customer(CustomerID)|customerID|customerID|
 |Customer(CustomerID)|nameCountry|Country|
