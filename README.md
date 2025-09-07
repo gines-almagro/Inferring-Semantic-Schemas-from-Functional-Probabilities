@@ -188,7 +188,7 @@ These metrics extend the standard binary evaluation by (i) rewarding partial mat
 
 * 13 axioms (5 classes; 1 subClassOf; 3 relation properties; 9 datatype properties)
   
-|Class(identifier)$^{(*)}$|Property|Object|
+|Class(identifier)(*)|Property|Object|
 |-----|---------|------|
 |Category(Category)|categoryName|Category|
 |SubCategory(SubCategory)|subCategoryName|SubCategory|
@@ -204,7 +204,7 @@ These metrics extend the standard binary evaluation by (i) rewarding partial mat
 |SalesArticle(Absolute_url)|**belongsToSubCategory**|SubCategory|
 |SalesArticle(Absolute_url)|**hasSalesSpecification**|SalesSpecification|
 
-_$^{(*)}$ In brackets, the column(s) of the dataset that acts as the class identifier, which determines the granularity of the same_
+_(*) In brackets, the column(s) of the dataset that acts as the class identifier, which determines the granularity of the same_
 
 #### Threshold = 1.0 BigBasket Metrics
 
@@ -264,7 +264,7 @@ _$^{(*)}$ In brackets, the column(s) of the dataset that acts as the class ident
 
 * 13 axioms (6 classes; 0 subClassOf; 5 relation properties; 8 datatype properties)
   
-|Class(identifier)$^{(*)}$|Property|Object|
+|Class(identifier)(*)|Property|Object|
 |-----|---------|------|
 |Country(Country)|nameCountry|Country|
 |Customer(CustomerID)|customerID|customerID|
@@ -280,7 +280,7 @@ _$^{(*)}$ In brackets, the column(s) of the dataset that acts as the class ident
 |Invoice(InvoiceNo)|**hasCustomer**|Customer|
 |Invoice(InvoiceNo)|**hasSalesArticle**|SalesArticle|
 
-_$^{(*)}$ In brackets, the column(s) of the dataset that acts as the class identifier, which determines the granularity of the same_
+_(*) In brackets, the column(s) of the dataset that acts as the class identifier, which determines the granularity of the same_
 
 #### Threshold = 1.0 Ecommerce Metrics
 
