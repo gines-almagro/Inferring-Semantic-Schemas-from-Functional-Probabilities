@@ -188,7 +188,7 @@ These metrics extend the standard binary evaluation by (i) rewarding partial mat
 
 * 13 axioms (5 classes; 1 subClassOf; 3 relation properties; 9 datatype properties)
   
-|Class(identifier)^{(*)}^|Property|Object|
+|Class(identifier)$^{(*)}$|Property|Object|
 |-----|---------|------|
 |Category(Category)|categoryName|Category|
 |SubCategory(SubCategory)|subCategoryName|SubCategory|
