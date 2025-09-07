@@ -4,7 +4,7 @@
 
 * Gold: 13 axioms (6 classes; 0 subClassOf; 5 relation properties; 8 datatype properties)
   
-|Class(identifier)$^{(*)}$|Property|Object|
+|Class(identifier)(*)|Property|Object|
 |-----|---------|------|
 |Country(Country)|nameCountry|Country|
 |Customer(CustomerID)|customerID|customerID|
@@ -20,7 +20,7 @@
 |Invoice(InvoiceNo)|**hasCustomer**|Customer|
 |Invoice(InvoiceNo)|**hasSalesArticle**|SalesArticle|
 
-_$^{(*)}$ In brackets, the column(s) of the dataset that acts as the class identifier, which determines the granularity of the same_
+_(*) In brackets, the column(s) of the dataset that acts as the class identifier, which determines the granularity of the same_
 
 -----------------------------------------------------
 
